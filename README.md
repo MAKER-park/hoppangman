@@ -1,3 +1,4 @@
+
 int LED = 8;            
 int PIR = 3;             
 
@@ -12,12 +13,13 @@ void loop()
 {
   
   int readValue = digitalRead(PIR);
-  if (readValue == HIGH) 
+  Serial.println(readValue);    
+  if (readValue == HIGH) {
 
     digitalWrite(LED, LOW);      
-              
+  } 
   else 
-    digitalWrite(LED, HIGH);       
-
-           
+    {digitalWrite(LED, HIGH);       
+    }
+            
   }
