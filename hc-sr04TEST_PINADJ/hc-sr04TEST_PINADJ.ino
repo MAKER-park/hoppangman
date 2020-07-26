@@ -1,5 +1,5 @@
-const int trigPin = 2;    //Trig 핀 할당
-const int echoPin = 4;    //Echo 핀 할당
+const int trigPin = 6;    //Trig 핀 할당
+const int echoPin = 7;    //Echo 핀 할당
  
 void setup()
 {
@@ -35,6 +35,3 @@ void loop()
  
     delay(100);
 }
-
-
-출처: https://dokkodai.tistory.com/104 [OSHW Alchemist]
